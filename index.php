@@ -1,11 +1,5 @@
 <?php
 
-<<<<<<< HEAD
-$nombre = "Camila";
-$lastname = "Perez";
-
-echo $nombre.' '.$lastname;
-=======
 $name = "Camila";
 $lastname = "Perez";
 
@@ -47,6 +41,5 @@ echo rand(5, 65);
 
 echo "\n";
 echo sqrt(5);
->>>>>>> bc817f09ca8b5f9eb334b6888ec1c3bd72e3fa00
 
 ?>
