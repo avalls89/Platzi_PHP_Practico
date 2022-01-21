@@ -1,13 +1,12 @@
 <?php
 
-$words = array("sol", "lluna", "cielo");
-
+$words = array("sol", "lluna", "cielo", "llum", "estrella", "lluvia");
 $messywords= array();
 
-for($i=0; $i <3 ; $i++){
+
+for($i=0; $i <count($words) ; $i++){
    $messywords[$i] = str_shuffle($words[$i]); 
 }
-
 
 print_r($messywords);
 echo "
