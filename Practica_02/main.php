@@ -1,13 +1,13 @@
 <?php
 
-$palabras = array("sol", "lluna", "cielo", "llum", "estrella", "lluvia");
+$words = array("sol", "lluna", "cielo", "llum", "estrella", "lluvia");
 
 
 
-$formu = "<form action='analisis.php'>";
+$form = "<form action='analisis.php'>";
 
-for($i=0; $i < count($palabras); $i++){
-    $formu .= "La palabra: ".str_shuffle($palabras[$i]).
+for($i=0; $i < count($words); $i++){
+    $form .= "La palabra: ".str_shuffle($words[$i]).
     " "."<input type='text' name='palabra".$i."'>".
     "<br>"; 
 }
@@ -16,7 +16,7 @@ $button = "<button type='submit'>Enviar</button>";
 $formCierre = "</form>";
 
 
-echo $formu.$button.$formCierre;
+echo $form.$button.$formCierre;
 
 ?>
 
